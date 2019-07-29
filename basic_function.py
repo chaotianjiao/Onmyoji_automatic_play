@@ -6,8 +6,8 @@ import time
 import random
 
 
-def basic(use_time, path):
-    X, Y = pyg.locateCenterOnScreen(path)
+def basic(X, Y, use_time):
+
     pyg.doubleClick(X, Y)
     # 依据个人实力，设置刷一轮御魂的时间，建议比完成时间多8~10秒
     time.sleep(use_time)
