@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 # Author: Felix
-# Date  : 2019-07-29 11:55
+# Date  : 2019-07-31 14:44
 from icecream import ic
 from basic_function import basic,get_use_time
 import pyautogui as pyg
@@ -11,7 +11,8 @@ if __name__ == '__main__':
     # 可更改右边的数值设定要刷的次数
     for i in range(1, 1000):
         try:
-            basic(path='resource/御灵按钮.png', use_time=use_time + 5)
+            # 这里贪嗔痴的按钮跟御魂是一样的，所以共用一个
+            basic(path='resource/御魂按钮.png', use_time=use_time + 5)
         except TypeError:
             # 多点几次跳到有挑战按钮的界面
             increment = random.choice([0.1, 0.2, 0.3, 0.4, 0.5])
