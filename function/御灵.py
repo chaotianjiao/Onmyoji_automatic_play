@@ -5,13 +5,13 @@ from icecream import ic
 from basic_function import basic,get_use_time
 import pyautogui as pyg
 import random
-
+X, Y = pyg.locateCenterOnScreen('../resource/御灵按钮.png')
 use_time = get_use_time()
 if __name__ == '__main__':
     # 可更改右边的数值设定要刷的次数
     for i in range(1, 1000):
         try:
-            basic(path='resource/御灵按钮.png', use_time=use_time + 5)
+            basic(x=X, y=Y, use_time=use_time + 5)
         except TypeError:
             # 多点几次跳到有挑战按钮的界面
             increment = random.choice([0.1, 0.2, 0.3, 0.4, 0.5])

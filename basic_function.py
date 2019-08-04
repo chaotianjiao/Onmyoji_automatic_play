@@ -17,11 +17,11 @@ def get_use_time():
     return use_time
 
 
-def basic(path, use_time):
+def basic(x,y, use_time):
     # 找到按钮的位置
-    X, Y = pyg.locateCenterOnScreen(path)
+
     # 点击开始刷
-    pyg.doubleClick(X, Y)
+    pyg.doubleClick(x, y)
     # 依据个人实力，设置刷一轮御魂的时间，建议比完成时间多5~8秒
     time.sleep(use_time)
     # 刷完模仿手动点击，防止被网易封
