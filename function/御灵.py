@@ -5,7 +5,7 @@ from icecream import ic
 from basic_function import basic,get_use_time
 import pyautogui as pyg
 import random
-X, Y = pyg.locateCenterOnScreen('../resource/御灵按钮.png')
+X, Y = pyg.locateCenterOnScreen('../resource/挑战按钮.png')
 use_time = get_use_time()
 if __name__ == '__main__':
     # 可更改右边的数值设定要刷的次数
