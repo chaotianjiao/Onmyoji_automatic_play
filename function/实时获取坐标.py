@@ -1,5 +1,4 @@
-# Author:feng.yuzhang
-
+# -*- coding: utf-8 -*-
 import pyautogui
 print('Press Ctrl-C to quit.')
 try:

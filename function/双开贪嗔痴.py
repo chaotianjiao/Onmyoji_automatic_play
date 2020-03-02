@@ -1,6 +1,4 @@
-# Author:feng.yuzhang
-# Time:2020/3/2 16:35
-# Project:Onmyoji_automatic_play
+# -*- coding: utf-8 -*-
 import pyautogui as pyg
 import time
 from icecream import ic
