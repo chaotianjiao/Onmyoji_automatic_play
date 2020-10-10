@@ -13,7 +13,7 @@ for i in range(1, 10000):
     # 首先点击开始
     pyg.click(x=x, y=y)
     # 等待刷完一轮时间
-    time.sleep(33)
+    time.sleep(12)
     # 开始点击
     pyg.doubleClick(interval=1)
     # 平移到队友号窗口
